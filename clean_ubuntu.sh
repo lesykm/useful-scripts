@@ -18,7 +18,7 @@ EOF
 echo "Done"
 
 echo "Removing preinstalled bloatware..."
-echo apt-get -y purge landscape-client landscape-common resolvconf byobu \
+apt-get -y purge landscape-client landscape-common resolvconf byobu \
             apport apport-symptoms python3-apport unattended-upgrades \
             snap-confine snapd ubuntu-core-launcher accountsservice \
             libpolkit-agent-1-0 libpolkit-backend-1-0 libpolkit-gobject-1-0 \
